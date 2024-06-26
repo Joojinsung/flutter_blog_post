@@ -1,7 +1,7 @@
 // lib/main.dart
 import 'package:flutter/material.dart';
 
-import 'Stack.dart';
+import 'StackExample.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
             title: Text('MainAxisAlignment & CrossAxisAlignment in Column')),
-        body: ColumnExample(), // ColumnExample 위젯 사용
+        body: StackExample(), // ColumnExample 위젯 사용
       ),
     );
   }

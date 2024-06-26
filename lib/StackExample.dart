@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-class ColumnExample extends StatelessWidget {
+class StackExample extends StatelessWidget {
+  const StackExample({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
